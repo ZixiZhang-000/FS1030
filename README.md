@@ -1,6 +1,8 @@
 ### FS1030Project
 Clone repo 
+```
 git clone https://github.com/ZixiZhang-000/FS1030Project.git
+```
 ### Create DB and Table for patient's profile
 ```
 CREATE DATABASE patients;
