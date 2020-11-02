@@ -6,6 +6,7 @@ git clone https://github.com/ZixiZhang-000/FS1030Project.git
 ### Create DB and Table for patient's profile
 ```
 CREATE DATABASE patients;
+USE patients;
 CREATE TABLE IF NOT EXISTS `patient_details`(
   `patient_id` int(5) NOT NULL AUTO_INCREMENT,
   `card_number` int(10) NOT NULL, 
