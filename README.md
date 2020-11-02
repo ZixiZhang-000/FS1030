@@ -2,6 +2,7 @@
 Clone repo 
 git clone https://github.com/ZixiZhang-000/FS1030Project.git
 ### Create DB and Table for patient's profile
+'''
 CREATE DATABASE patients;
 CREATE TABLE IF NOT EXISTS `patient_details`(
   `patient_id` int(5) NOT NULL AUTO_INCREMENT,
@@ -16,8 +17,10 @@ CREATE TABLE IF NOT EXISTS `patient_details`(
   `updeted_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
   PRIMARY KEY(`patient_id`)
 )ENGINE=InnoDB DEFAULT CHARSET = latin1 AUTO_INCREMENT = 1;
+'''
 
 ### Create DB and Table for users
+'''
 CREATE DATABASE users;
 use users;
 CREATE TABLE IF NOT EXISTS `providers`(
@@ -28,6 +31,7 @@ CREATE TABLE IF NOT EXISTS `providers`(
   `email` varchar(50) NOT NULL, 
   PRIMARY KEY(`user_id`)
 )ENGINE=InnoDB DEFAULT CHARSET = latin1 AUTO_INCREMENT = 1;
+'''
 
 ### Register and login account
 Open http://localhost/FS1030Project/login/login.php
